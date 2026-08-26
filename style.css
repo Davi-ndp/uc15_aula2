@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(102, 26, 26);
+}    
+
+h1{
+    font-family: Courier;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border-color: blue 3px solid;
+}
+
+p{
+    font-family: Helvetica;
+    font-size: 14px;
+    color: grey;
+    align-items: justify;
+
+}
