@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Html semântico</title>    
+    <title>Vendas - Minha Empresa</title>    
 </head>
 
 <body>
@@ -12,9 +12,9 @@
         <h1>Minha Empresa</h1>
     <nav>
         <ul>
-            <li> <a href="/ex02/index.html"> Home</a></li>
-            <li> <a href="/ex02/vendas.html"> Vendas</a></li>
-            <li> <a href="/ex02/contato.html"> Contato</a></li>
+            <li> <a href="index.html"> Home</a></li>
+            <li> <a href="vendas.html"> Vendas</a></li>
+            <li> <a href="contato.html"> Contato</a></li>
         </ul>
     </nav>
    </header> 
@@ -22,8 +22,11 @@
        <article>
         <section>
             <h1>Relatório de Vendas</h1>
-            <h2>Produtos mais vendidos</h2>
+
+            
+
             <table>
+                <caption>Produtos mais vendidos</caption>
                 <thead>
                     <tr>
                         <th>Produto</th>
@@ -56,14 +59,21 @@
                         <td>67</td>
                         <td>R$ 150,00</td>
                         <td>R$ 10.050,00</td>
+                    </tr>    
                 </tbody>
-            </table>
-
-            
+                <tfoot>
+                    <tr>
+                        <td colspan="3"><strong>Total de Vendas</strong></td>
+                        <td><strong>R$ 146.700</strong></td>
+                    </tr>
+                </tfoot>
+            </table>    
         </section>
        </article>
    </main>
-
+     <footer>
+       <p>&copy; 2026 Minha empresa. Todos os direitos reservados.</p>
+   </footer>
 </body>
 
 </html>
